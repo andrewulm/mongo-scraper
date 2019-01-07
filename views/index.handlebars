@@ -1,0 +1,18 @@
+<div class="d-flex flex-wrap">
+    {{#each articles}}
+        <div class="col-4">
+            <div class="card" data-id="{{this.id}}">
+                <div class="card-header">
+                    <img src="{{this.image}}" alt="{{this.title}}" style="width: 100%;"/>
+                </div>
+                <div class="card-body">
+                    <h4>{{this.title}}</h4>
+                    <h6>{{this.date}}</h6>
+                    <hr/>
+                    <p>{{this.summary}}</p>
+                    <p><a href="{{this.link}}">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</div>

@@ -1,0 +1,21 @@
+{
+  "name": "mongo-scraper",
+  "version": "1.0.0",
+  "description": "A simple scraper to display some articles",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "Andrew Ulm",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.2.13",
+    "request": "^2.88.0"
+  }
+}
